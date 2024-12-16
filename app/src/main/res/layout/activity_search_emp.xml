@@ -1,0 +1,42 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#fdcb6e"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textColor="#636e72"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="Employee Code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/et8"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="30dp"
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt7"
+        android:text="Search"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#636e72"
+        android:background="#e17055"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt8"
+        android:text="Back to Menu"
+        android:textColor="#636e72"
+        android:background="#e17055"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
